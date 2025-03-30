@@ -116,7 +116,7 @@ H,拍子数,分子,分母
 ## 测试谱面 / 打包
 对于 Windows 用户，你的谱面文件会存储在 ```C:\Users\*你的用户名*\AppData\LocalLow\MixBadGun\石墩子快跑\music\``` 中。
 
-对于 MacOS 用户，则是 ```/Users/*你的用户名*/Library/Caches/com.mixbadgun.shidunzi/石墩子快跑/music/```。
+对于 MacOS 用户，则是 ```/Users/*你的用户名*/Library/Caches/com.mixbadgun.shidunzi/music/```。
 
 对于 Andriod 用户，则是 ```/Android/data/com.mixbadgun.shidunzi/files/music/```。
 
