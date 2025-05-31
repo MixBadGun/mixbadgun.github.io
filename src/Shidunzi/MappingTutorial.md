@@ -127,6 +127,51 @@ D,0,3,4,2,1,0,1,0
 H,拍子数,分子,分母
 ```
 
+### 摄像机音符
+可以通过该音符，变换摄像机。
+
+```javascript
+C,拍子数,分子,分母,缓动类型,动画时长拍子数,动画时长分子,动画时长分母,Z轴旋转角度
+```
+
+其中，**缓动类型**为 1-35 的数字，分别对应：
+1. Linear
+2. InSine
+3. OutSine
+4. InOutSine
+5. InQuad
+6. OutQuad
+7. InOutQuad
+8. InCubic
+9. OutCubic
+10. InOutCubic
+11. InQuart
+12. OutQuart
+13. InOutQuart
+14. InQuint
+15. OutQuint
+16. InOutQuint
+17. InExpo
+18. OutExpo
+19. InOutExpo
+20. InCirc
+21. OutCirc
+22. InOutCirc
+23. InElastic
+24. OutElastic
+25. InOutElastic
+26. InBack
+27. OutBack
+28. InOutBack
+29. InBounce
+30. OutBounce
+31. InOutBounce
+32. Flash
+33. InFlash
+34. OutFlash
+35. InOutFlash
+
+**Z轴旋转角度** 采用角度制，可以为负数，也可以大于 360 度。
 ## 测试谱面 / 打包
 对于 Windows 用户，你的谱面文件会存储在 ```C:\Users\*你的用户名*\AppData\LocalLow\MixBadGun\石墩子快跑\music\``` 中。
 
